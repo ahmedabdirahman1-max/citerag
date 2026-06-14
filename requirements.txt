@@ -1,0 +1,5 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+# Optional: only needed to enable LLM-generated (vs extractive) grounded answers.
+# The app runs fully without it — retrieval, citations, and refusal all work offline.
+anthropic>=0.40
